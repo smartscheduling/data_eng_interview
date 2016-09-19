@@ -60,13 +60,15 @@ if __name__ == '__main__':
     models_a = {
         'model1': Model1(),
         'model2': Model2(),
-        'model3': Model3()
+        'model3': Model3(),
+        'model3_a', Model3()
     }
 
     models_b = {
         'model1': Model1(),
         'model2': Model2(),
         'model3': Model3(),
+        'model3_a', Model3(),
         'model4': Model4()
     }
 
@@ -74,6 +76,7 @@ if __name__ == '__main__':
         'model1': Model1(),
         'model2': Model2(),
         'model3': Model3(),
+        'model3_a', Model3(),
         'model4': Model4(),
         'model5': Model5()
     }
