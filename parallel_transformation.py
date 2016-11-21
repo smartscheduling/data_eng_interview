@@ -69,4 +69,4 @@ if __name__ == '__main__':
     parallel_transform(transformer1, input_file, 'output1.csv')
     parallel_transform(transformer2, input_file, 'output2.csv')
     parallel_transform(transformer3, input_file, 'output3.csv')
-    parallel_transform(transformer1, input_file, 'output4.csv', group_by_column='a')
+    parallel_transform(transformer1, input_file, 'output4.csv', group_by_column='d')
